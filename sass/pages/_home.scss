@@ -1,0 +1,24 @@
+// ana sayfa dışında hiçbir yerde kullanılmayacak yapılar
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh; // poligonda gözüken beyaz kısmı kapatmak için header.scss ye göre height-poly.height
+}
+.section-features {
+  margin-top:-10rem ;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../../img/nat-4.jpg);
+  background-size: cover;
+  //   clip path yerine skew kullanılabilir
+  transform: skewY(-7deg);
+
+  //section-features ın bütün çocukları
+  & > * {
+    transform: skewY(7deg);
+  }
+}
