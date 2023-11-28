@@ -13,6 +13,7 @@
   &:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    //! buton hover effect
     &::after {
       transform: scaleX(1.4) scaleY(1.6); /*Sahip olunan boyutun 1.5 - 1.6 katı */
       opacity: 0;
@@ -27,6 +28,13 @@
     color: $color-grey-dark;
     &::after {
       background-color: $color-white;
+    }
+  }
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+    &::after {
+      background-color: $color-primary;
     }
   }
   &::after {
