@@ -1,14 +1,21 @@
 .row {
   max-width: $grid-width;
-  
+
   margin: 0 auto; //ortalama
 
   // .row:last-child() -->son çocuk
   // son çocuk hariç hepsi
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
-  }
 
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem
+  }
   @include clearfix;
 
   // .col-1-of-2 leri tek tek yapmak yerine col- ile başlayanlar için, (^ bu işaret başlangıca işaret eder)/(* kullanılırsa col- içeren tüm classlar)($ ise col- ile bitenler)
@@ -17,6 +24,15 @@
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
     }
   }
 

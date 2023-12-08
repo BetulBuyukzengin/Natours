@@ -4,7 +4,6 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 3rem;
 }
 .heading-primary {
   color: $color-white;
@@ -20,9 +19,14 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-  } /* animation-delay: 3s;
+    /* animation-delay: 3s;
       animation-iteration-count: 3; ->tekrar sayısı
     */
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
+  }
   &--sub {
     display: block;
     font-size: 2rem;
@@ -31,6 +35,10 @@ body {
     letter-spacing: 1.75rem;
     animation-name: moveInRight;
     animation-duration: 1s;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
   }
 }
 .heading-secondary {
@@ -49,21 +57,27 @@ body {
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
   &:hover {
     // eğim ve ölçek
     transform: skewY(2deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
-.heading-tertiary{
+.heading-tertiary {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
 }
-.paragraphy{
+.paragraphy {
   font-size: $default-font-size;
 
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 3rem;
   }
 }

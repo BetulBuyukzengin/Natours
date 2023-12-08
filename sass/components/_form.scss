@@ -15,6 +15,9 @@
     display: block;
     transition: all 0.3s;
 
+    @include respond(tab-port) {
+      width: 100%;
+    }
     &:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
@@ -47,8 +50,13 @@
   &__radio-group {
     width: 49%;
     display: inline-block;
+
+    @include respond(tab-port) {
+      width: 100%;
+      margin-bottom: 2em;
+    }
   }
-  &__radio-input{
+  &__radio-input {
     display: none;
   }
   &__radio-label {
@@ -76,11 +84,11 @@
       @include absCenter;
       background-color: $color-primary;
       opacity: 0;
-      transition: opacity .2s; //! sadece opaciy için
+      transition: opacity 0.2s; //! sadece opaciy için
     }
   }
   //! form__radio-button a ulaşmak için kardeşinin çocuğu şeklinde belirtmek gerekiyor
-  &__radio-input:checked + &__radio-label &__radio-button::after{
+  &__radio-input:checked + &__radio-label &__radio-button::after {
     opacity: 1;
   }
 }
