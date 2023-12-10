@@ -90,7 +90,30 @@
           </div>
           <div class="col-1-of-2">
             <div class="composition">
+              <!-- ! density and resolutıon switch ,responsive img in html -->
+               <!-- sizes daki 20vw = taraycıda reim uzerindeki genişlik(171) /900 -->
               <img
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 100w"
+                sizes="(max-width:900px) 20vw, (max-width:600px) 30vw 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/nat-1-large.jpg"
+              />
+              <img
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 100w"
+                sizes="(max-width:900px) 20vw, (max-width:600px) 30vw 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/nat-2-large.jpg"
+              /><img
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 100w"
+                sizes="(max-width:900px) 20vw, (max-width:600px) 30vw 300px"
+                 alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/nat-3-large.jpg"
+              />
+
+              <!--  <img
                 src="img/nat-1-large.jpg"
                 alt="photo1"
                 class="composition__photo composition__photo--p1"
@@ -102,7 +125,7 @@
                 src="img/nat-3-large.jpg"
                 alt="photo3"
                 class="composition__photo composition__photo--p3"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -391,7 +414,39 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+        <!-- ! RESPONSIVE IMG -->
+        <picture class="footer__logo">
+          <!-- * ART DIRECTION DENSITY SWİTCHİNG  -->
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width:37.5rem)"
+          />
+          <!-- * HTML de yoğunluk değiştirme srcset 1x 2x yoğunluk-->
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full logo"
+            src="img/logo-green-2x.png"
+            <!--
+            Kaynak
+            kümesinin
+            kullanıcının
+            kullandığı
+            tarayıcı
+            tarafından
+            desteklenmemesi
+            ihtimaline
+            karşı
+            src
+            eklendi
+            --
+          />
+          />
+        </picture>
+
+        <!-- <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" /> -->
       </div>
       <div class="row">
         <div class="col-1-of-2">
@@ -450,7 +505,8 @@
             placeat Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Molestiae molestias inventore cumque quasi. Non temporibus, corporis
             molestias placeat harum expedita? Nobis excepturi debitis eum
-            voluptatem? Deserunt quidem unde maxime magni. Deserunt quidem unde maxime magni. Deserunt quidem unde maxime magni.
+            voluptatem? Deserunt quidem unde maxime magni. Deserunt quidem unde
+            maxime magni. Deserunt quidem unde maxime magni.
           </p>
           <a href="#" class="btn btn--green">Book now</a>
         </div>
