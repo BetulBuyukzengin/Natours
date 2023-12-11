@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- responsive için olmazsa olmaz , içerik genişliğicihaz genişliği ile aynı olmalı -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
@@ -19,37 +17,27 @@
   <body>
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="navigation__button"
-        ><span class="navigation__icon">&nbsp;</span></label
-      >
-      <!-- Birden fazla boşluk bırakmak için &nbsp -->
+      <label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
       <div class="navigation__background">&nbsp;</div>
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#section-about" class="navigation__link"
-              ><span>01</span>About Natours</a
-            >
+            <a href="#section-about" class="navigation__link"><span>01</span>About Natours</a>
           </li>
           <li class="navigation__item">
-            <a href="#section-features" class="navigation__link"
-              ><span>02</span>Your benfits</a
-            >
+            <a href="#section-features" class="navigation__link"><span>02</span>Your benfits</a>
           </li>
           <li class="navigation__item">
             <a href="#section-tours" class="navigation__link"
-              ><span>03</span>Popular tours</a
-            >
+              ><span>03</span>Popular tours</a>
           </li>
           <li class="navigation__item">
             <a href="#section-stories" class="navigation__link"
-              ><span>04</span>Stories</a
-            >
+              ><span>04</span>Stories</a>
           </li>
           <li class="navigation__item">
             <a href="#section-book" class="navigation__link"
-              ><span>05</span>Book now</a
-            >
+              ><span>05</span>Book now</a>
           </li>
         </ul>
       </nav>
@@ -91,14 +79,12 @@
             <p class="paragraphy">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui
               iure architecto eum quaerat dolorum aut commodi pariatur,
-            </p>
-            <!-- rarr: ok sembolü -->
+            </p>     
             <a href="#" class="btn-text">Learn more &rarr;</a>
           </div>
           <div class="col-1-of-2">
             <div class="composition">
-              <!-- ! density and resolutıon switch ,responsive img in html -->
-              <!-- sizes daki 20vw = taraycıda reim uzerindeki genişlik(171) /900 -->
+              <!-- ! density and resolutiıon switch ,responsive img in html -->
               <img
                 srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 100w"
                 sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw 300px"
@@ -119,20 +105,6 @@
                 class="composition__photo composition__photo--p3"
                 src="img/nat-3-large.jpg"
               />
-
-              <!--  <img
-                src="img/nat-1-large.jpg"
-                alt="photo1"
-                class="composition__photo composition__photo--p1"
-              /><img
-                src="img/nat-2-large.jpg"
-                alt="photo2"
-                class="composition__photo composition__photo--p2"
-              /><img
-                src="img/nat-3-large.jpg"
-                alt="photo3"
-                class="composition__photo composition__photo--p3"
-              /> -->
             </div>
           </div>
         </div>
@@ -199,7 +171,6 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <!-- &nbsp boş anlamına gelir -->
                 <div class="card__picture card__picture--1">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--1">
@@ -232,7 +203,6 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <!-- &nbsp boş anlamına gelir -->
                 <div class="card__picture card__picture--2">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--2">
@@ -265,7 +235,6 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <!-- &nbsp boş anlamına gelir -->
                 <div class="card__picture card__picture--3">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--3">
@@ -390,7 +359,6 @@
                 </div>
                 <div class="form__group u-margin-bottom-medium">
                   <div class="form__radio-group">
-                    <!-- aynı gruptaki radio ların sadece 1 ini seçmek için aynı isme sahip "name" tagi eklendi -->
                     <input
                       type="radio"
                       class="form__radio-input"
@@ -429,7 +397,7 @@
       <div class="footer__logo-box">
         <!-- ! RESPONSIVE IMG -->
         <picture class="footer__logo">
-          <!-- * ART DIRECTION DENSITY SWİTCHİNG  -->
+          <!-- * ART DIRECTION DENSITY SWITCHING  -->
           <source
             srcset="
               img/logo-green-small-1x.png 1x,
@@ -437,25 +405,11 @@
             "
             media="(max-width:37.5rem)"
           />
-          <!-- * HTML de yoğunluk değiştirme srcset 1x 2x yoğunluk-->
           <img
             srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
             alt="Full logo"
             src="img/logo-green-2x.png"
-            <!--
-            Kaynak
-            kümesinin
-            kullanıcının
-            kullandığı
-            tarayıcı
-            tarafından
-            desteklenmemesi
-            ihtimaline
-            karşı
-            src
-            eklendi
-            --
-          />
+            >
         </picture>
 
         <!-- <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" /> -->
@@ -525,33 +479,5 @@
       </div>
     </div>
     <script src="script.js"></script>
-    <!-- <div class="row">
-      <div class="col-1-of-2">asf</div>
-      <div class="col-1-of-2">dre</div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-3">dfss</div>
-      <div class="col-1-of-3">dfs</div>
-      <div class="col-1-of-3">sff</div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-3">dfgdgd</div>
-      <div class="col-2-of-3">dgdf</div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-4">fsdf</div>
-      <div class="col-1-of-4">sfs</div>
-      <div class="col-1-of-4">sdf</div>
-      <div class="col-1-of-4">sf</div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-4">gs</div>
-      <div class="col-1-of-4">dsf</div>
-      <div class="col-2-of-4">sf</div>
-    </div>
-    <div class="row">
-      <div class="col-1-of-4">fgs</div>
-      <div class="col-3-of-4">sdgsg</div>
-    </div> -->
   </body>
 </html>

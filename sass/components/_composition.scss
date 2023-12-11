@@ -7,7 +7,7 @@
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
-    outline-offset: 2rem; //border(outline) için boşluk
+    outline-offset: 2rem; 
 
     @include respond(tab-port) {
       float: left;
@@ -15,14 +15,12 @@
       width: 33.3333333%;
       box-shadow: 0 1.5rem 3rem rgba($color-black, 0.4);
     }
-
     &--p1 {
       left: 0;
       top: -2rem;
       @include respond(tab-port) {
         top: 0;
         transform: scale(1.2);
-
       }
     }
     &--p2 {

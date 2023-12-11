@@ -3,7 +3,6 @@ const navCheck = document.querySelector(".navigation__checkbox");
 const navButton = document.querySelector(".navigation__button");
 const nav = document.querySelector(".navigation__nav");
 const background = document.querySelector(".navigation__background");
-const list = document.querySelector(".navigation__list");
 const links = document.querySelectorAll(".navigation__link");
 
 const popup = document.querySelector(".popup");

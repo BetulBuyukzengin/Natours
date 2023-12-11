@@ -12,9 +12,7 @@
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
- // yüksek çözünürlükte, düşük çözünürlük (min-width:2000px)
- // 600/16=37.5em  2000/16=125em
- //(-webkit-min-device-pixel-ratio:2)  safari(iphone-mac)desteği
+ 
   @media only screen and (min-resolution: 192dpi) and (min-width:37.5em),
   only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em)
   ,only screen and (min-width:125em)  {

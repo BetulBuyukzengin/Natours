@@ -55,7 +55,6 @@
     left: 0;
     z-index: 1500;
     opacity: 0;
-    // Arka planda bağlantılar tıklanabilir old için
     width: 0;
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
@@ -128,7 +127,6 @@
     }
     &::before {
       top: -0.8rem;
-      //   transform-origin: right;
     }
     &::after {
       top: 0.8rem;

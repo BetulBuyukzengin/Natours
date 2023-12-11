@@ -1,9 +1,6 @@
 .btn {
-  //* buton için
   &,
-  //* link için
   &:link,
-  //* ziyaret için
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
@@ -13,8 +10,6 @@
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
-
-    //<button> elementi değiştirmek için
     border: none;
     cursor: pointer;
   }
@@ -23,7 +18,7 @@
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
     //! buton hover effect
     &::after {
-      transform: scaleX(1.4) scaleY(1.6); /*Sahip olunan boyutun 1.5 - 1.6 katı */
+      transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
     }
   }
@@ -48,8 +43,8 @@
     }
   }
   &::after {
-    content: ""; /* gözükmesi için gerekli */
-    display: inline-block; /* gözükmesi için gerekli */
+    content: ""; 
+    display: inline-block; 
     height: 100%;
     width: 100%;
     border-radius: 10rem;
@@ -62,7 +57,7 @@
 
   &--animated {
     animation: moveInBottom 0.5s ease-out 0.75s;
-    animation-fill-mode: backwards; /* Butonun başlangıçta görünürlüğünü kaldırdı */
+    animation-fill-mode: backwards; // Başlangıçta görünürlüğünü kalktı
   }
 }
 .btn-text {

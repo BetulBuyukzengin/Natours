@@ -1,22 +1,22 @@
 .card {
   //FUNCTIONALITY
-  perspective: 150rem; //değeri fazla vermek lazım
-  -moz-perspective: 150rem; //mozillada çalışması için
+  perspective: 150rem; 
+  -moz-perspective: 150rem; //mozilla için
   position: relative;
   height: 52rem;
 
   &__side {
-    height: 52rem; //absolute oldugundan height özell. ebeveyninden alınamadığı için eklendi
+    height: 52rem; 
     transition: all 0.8s ease;
     font-size: 3rem;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    backface-visibility: hidden; //Arka yüz gizleme
+    backface-visibility: hidden; 
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
-    overflow: hidden; //!taşmayı gizlemek için(border-radius değişiminde güzel görünmesi için)
+    overflow: hidden; 
     &--front {
       background-color: $color-white;
     }
@@ -45,7 +45,6 @@
       }
     }
   }
-  //! card hover olduğunda card__side dönsün
   &:hover &__side--front {
     transform: rotateY(-180deg);
   }
@@ -102,7 +101,6 @@
   }
   &__heading-span {
     padding: 1rem 1.5rem;
-    //! 2 satıra bölünen textin padding özelliğini düzenleme
     -webkit-box-decoration-break: clone;
     &--1 {
       background-image: linear-gradient(
@@ -145,7 +143,6 @@
   }
 
   //FRONT SIDE STYLING
-  //! parent ına göre ortalama işlemi
   &__cta {
     @include absCenter;
     width: 90%;
@@ -165,9 +162,8 @@
     font-weight: 100;
   }
 
-  //tam tersi için, (hover:hover)
+  //!tam tersi için, (hover:hover)
   //! 56.25em den küçük ve dokunmatik ekranlarda(hover ozelliğini kullanamayacakları için)
-  //  @include respond(tab-port) {
   @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
@@ -184,17 +180,13 @@
         clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
       }
     }
-    //! card hover olduğunda card__side dönsün
     &:hover &__side--front {
       transform: rotateY(0);
     }
     &__details {
       padding: 1rem 3rem;
     }
-    //FRONT SIDE STYLING
-    //! parent ına göre ortalama işlemi
     &__cta {
-      // @include absCenter;
       position: relative;
       top: 0;
       left: 0;

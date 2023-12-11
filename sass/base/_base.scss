@@ -6,13 +6,11 @@
   box-sizing: inherit;
 }
 html {
-  /* 16px in 10 px e göre yüzdesi 10/16=0.625 
-  0.625*100=62.5%*/
-  //1 rem i tanımladığı için base de kalabilir
+  /*0.625*100=62.5%*/
   font-size: 62.5%;
 
   
-  //Her zaman büyükler küçüklerden önce gelir
+  //Sıralama büyükten küçüğe olmalı
   //tab-land ve tab-port sırası önemli 500px için ikisi de geçerli fakat sondaki baz alınıyor
   @include respond(tab-land){ // width <1200?
     font-size: 56.25%; //1 rem=9px, 9/16=56.25%
@@ -37,7 +35,6 @@ body {
   }
 }
 
-//seçimler
 ::selection{
   background-color: $color-primary;
   color: $color-white;

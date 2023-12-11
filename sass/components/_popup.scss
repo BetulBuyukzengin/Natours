@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 9999;
-  //* display:none; (canlandıramayız) yerine opacity ve visibilty
+  //* display:none;  yerine opacity ve visibilty tkr canlandırmak için
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
@@ -24,15 +24,12 @@
   &__content {
     @include absCenter;
     width: 75%;
-    // height: 50rem;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     border-radius: 3px;
     display: table;
     overflow: hidden;
-    //* yaklaşan animasyon için
     opacity: 0;
-    //* Aynı yerde 2 transform kullanılamaz çakıştığı için scale içereni yazdım
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; //?
 
@@ -49,7 +46,7 @@
   }
   &__left {
     width: 33.333333%;
-    //* float: left; yerine display:table-cell; kullanarak yüksekliği eşit yapabiliriz
+    //* yüksekliği eşitleme
     display: table-cell;
     @include respond(phone) {
       display: block;
@@ -57,14 +54,12 @@
     }
     @include respond(tab-port) {
       width: 100%;
-      overflow: hidden; /* İçeriklerin taşmasını engellemek için */
-    }
-   
+      overflow: hidden; 
+    } 
 
   }
   &__right {
     width: 66.6666667%;
-    // float: left;
     display: table-cell;
     vertical-align: middle; //* ortalamak için
     padding: 3rem 5rem;
@@ -75,13 +70,13 @@
     }
     @include respond(tab-port) {
       width: 100%;
-      overflow: hidden; /* İçeriklerin taşmasını engellemek için */
+      overflow: hidden; 
       float: none;
       display: block;
     }
     @include respond(tab-land) {
       width: 100%;
-      overflow: hidden; /* İçeriklerin taşmasını engellemek için */
+      overflow: hidden; 
       float: none;
       display: block;
     }
@@ -94,12 +89,12 @@
       margin-bottom: 1.5rem;
     }
     @include respond(tab-port) {
-      width: 50%; /* Resimlerin %50 genişlikte olması */
-      float: left; /* Resimleri soldan sağa yüzdür */
+      width: 50%; 
+      float: left; 
     }
     @include respond(tab-land) {
-      width: 50%; /* Resimlerin %50 genişlikte olması */
-      float: left; /* Resimleri soldan sağa yüzdür */
+      width: 50%; 
+      float: left; 
     }
   }
   &__text {
@@ -123,9 +118,7 @@
   }
 
   &:target &__content {
-    //* yaklaşan animasyon için
     opacity: 1;
-    //* Aynı yerde 2 transform kullanılamaz çakıştığı için scale içereni yazdım
     transform: translate(-50%, -50%) scale(1);
   }
   &__close {
