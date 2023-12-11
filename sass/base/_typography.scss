@@ -73,6 +73,10 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
+  @include respond(phone) {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
 .paragraphy {
   font-size: $default-font-size;

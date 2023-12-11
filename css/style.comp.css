@@ -177,12 +177,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 37.5em) {
-  .heading-tertiary {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-}
 
 .paragraphy {
   font-size: 1.6rem;
@@ -669,11 +663,6 @@ body {
   visibility: hidden;
   transition: all 0.3s;
 }
-@media only screen and (max-width: 37.5em) {
-  .popup {
-    text-align: center;
-  }
-}
 @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
   .popup {
     -webkit-backdrop-filter: blur(10px);
@@ -696,35 +685,9 @@ body {
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.5s 0.2s;
 }
-@media only screen and (max-width: 56.25em) {
-  .popup__content {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 75em) {
-  .popup__content {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-}
 .popup__left {
   width: 33.333333%;
   display: table-cell;
-}
-@media only screen and (max-width: 37.5em) {
-  .popup__left {
-    display: block;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .popup__left {
-    width: 100%;
-    overflow: hidden; /* İçeriklerin taşmasını engellemek için */
-  }
 }
 .popup__right {
   width: 66.6666667%;
@@ -732,49 +695,9 @@ body {
   vertical-align: middle;
   padding: 3rem 5rem;
 }
-@media only screen and (max-width: 37.5em) {
-  .popup__right {
-    display: block;
-    width: 100%;
-    padding: 3rem 3.2rem;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .popup__right {
-    width: 100%;
-    overflow: hidden; /* İçeriklerin taşmasını engellemek için */
-    float: none;
-    display: block;
-  }
-}
-@media only screen and (max-width: 75em) {
-  .popup__right {
-    width: 100%;
-    overflow: hidden; /* İçeriklerin taşmasını engellemek için */
-    float: none;
-    display: block;
-  }
-}
 .popup__img {
   display: block;
   width: 100%;
-}
-@media only screen and (max-width: 37.5em) {
-  .popup__img {
-    margin-bottom: 1.5rem;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .popup__img {
-    width: 50%; /* Resimlerin %50 genişlikte olması */
-    float: left; /* Resimleri soldan sağa yüzdür */
-  }
-}
-@media only screen and (max-width: 75em) {
-  .popup__img {
-    width: 50%; /* Resimlerin %50 genişlikte olması */
-    float: left; /* Resimleri soldan sağa yüzdür */
-  }
 }
 .popup__text {
   margin-bottom: 4rem;
@@ -783,12 +706,6 @@ body {
   column-gap: 4rem;
   column-rule: 1px solid #eee;
   hyphens: auto;
-}
-@media only screen and (max-width: 37.5em) {
-  .popup__text {
-    font-size: 1.5rem;
-    column-count: 0;
-  }
 }
 .popup:target {
   opacity: 1;
@@ -1298,4 +1215,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.comp.css.map */

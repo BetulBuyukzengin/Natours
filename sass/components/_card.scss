@@ -165,7 +165,10 @@
     font-weight: 100;
   }
 
-  @include respond(tab-port) {
+  //tam tersi için, (hover:hover)
+  //! 56.25em den küçük ve dokunmatik ekranlarda(hover ozelliğini kullanamayacakları için)
+  //  @include respond(tab-port) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;

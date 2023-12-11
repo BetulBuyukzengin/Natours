@@ -36,3 +36,9 @@ body {
     padding: 0;
   }
 }
+
+//seçimler
+::selection{
+  background-color: $color-primary;
+  color: $color-white;
+}
