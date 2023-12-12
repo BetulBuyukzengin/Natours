@@ -1,20 +1,21 @@
-# <h1 align="center"> ✈ NATOURS </h1>
+<h1 align="center"> ✈ NATOURS </h1>
 <!--Forkify-App i, The Complate Javascript Course - 'Jonas Schmedtmann' eşliğinde  oluşturdum.-->
-## Hakkında:
+<h2>Hakkında:</h2>
 * Çeşitli yerlere turlar düzenleyen içerisinde animasyonlar, hover efectler barındıran ve farklı cihazlarla uyumlu (responsive) bir frontend projesidir.
 
-## <h3>🔴Projenin deploy edilmiş versiyonu : <a href="https://natours-site-project.netlify.app/">Natours</a></h3>
+<h3>🔴Projenin deploy edilmiş versiyonu : <a href="https://natours-site-project.netlify.app/">Natours</a></h3>
  
-## Kullandığım yapılar:
-* Daha düzenli ve okunabilir bir css kodu  için sass kullandım.
-* Kodu tekrarlamamak adına mixins kullandım.
-* Her bileşeni ayrı bir dosyada tutarak kodun daha organize ve yönetilebilir olmasını sağladım.
+<h2> Kullandığım yapılar:</h2>
+* Modal ve hamburger menu için javascript kullandım.<br>
+* Daha düzenli ve okunabilir bir css kodu  için sass kullandım.<br>
+* Kodu tekrarlamamak adına mixins kullandım.<br>
+* Her bileşeni ayrı bir dosyada tutarak kodun daha organize ve yönetilebilir olmasını sağladım.<br>
 * Projemde güncelleme durumları için pratik olması adına değişkenler tanımladım.
 
-## 🛠 Kullandığım teknolojiler:
+<h2> 🛠 Kullandığım teknolojiler:</h2>
 ![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
 
-## GÖRSELLER :
+<h2> GÖRSELLER :</h2>
 <h2 align="center">HEADER SECTION</h2>
 <img src="readme-img/natours1.png"/>
 <h2 align="center">ABOUT SECTION</h2>
@@ -35,3 +36,10 @@
 <img src="readme-img/natours8.png"/>
 <h2 align="center">MODAL SECTION</h2>
 <img src="readme-img/natours9.png"/>
+
+<h2>Geliştirici Bağımlılıklar:</h2>
+* npm concat
+* npm autoprefixer 
+* npm run all
+* npm postcss-cli
+* npm sass
