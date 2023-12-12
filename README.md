@@ -13,7 +13,7 @@
 * Projemde güncelleme durumları için pratik olması adına değişkenler tanımladım.
 
 ## 🛠 Kullandığım teknolojiler:
- <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript"/> <img src="https://img.shields.io/badge/-SCSS-pink?style=flat&logo=scss"/> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
+![icon](./tech-icons/html-icon.png) ![icon](./tech-icons/css-icon.png)  ![icon](./tech-icons/sass-icon.png) ![icon](./tech-icons/npm-icon.png)
 
 ## GÖRSELLER :
 <h2 align="center">HEADER SECTION</h2>
