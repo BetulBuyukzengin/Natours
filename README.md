@@ -3,7 +3,7 @@
 ## Hakkında:
 * Çeşitli yerlere turlar düzenleyen içerisinde animasyonlar, hover efectler barındıran bir frontend projesidir.
 
-## <h3>🔴Projenin deploy edilmiş versiyonu : <a href="************">Natours</a></h3>
+## <h3>🔴Projenin deploy edilmiş versiyonu : <a href="https://natours-site-project.netlify.app/">Natours</a></h3>
  
 ## Kullandığım yapılar:
 * Daha düzenli ve okunabilir bir css kodu  için sass kullandım.
