@@ -14,6 +14,7 @@
 
 <h2> 🛠 Kullandığım teknolojiler:</h2>
 ![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
+![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
 
 <h2> GÖRSELLER :</h2>
 <h2 align="center">HEADER SECTION</h2>
