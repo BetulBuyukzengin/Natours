@@ -16,6 +16,7 @@
  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript"/> <img src="https://img.shields.io/badge/-SCSS-pink?style=flat&logo=scss"/> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
 
 ## <h2 align="center">HEADER SECTION</h2>
+
 ![Natours-Page](readme-img/natours-1.png)
 ## <h2 align="center">ABOUT SECTION</h2>
 ![Natours-Page](readme-img/natours-2.png)
