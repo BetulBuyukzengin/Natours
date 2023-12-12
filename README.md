@@ -23,6 +23,8 @@
 <img src="readme-img/natours3.png"/>
 ## <h2 align="center">TOURS SECTION</h2>
 <img src="readme-img/natours4.png"/>
+## <h2 align="center">TOURS SECTION HOVER</h2>
+<img src="readme-img/natours4_1.png"/>
 ## <h2 align="center">STORIES SECTION</h2>
 <img src="readme-img/natours5.png"/>
 ## <h2 align="center">BOOKING SECTION</h2>
