@@ -16,21 +16,20 @@
  <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript"/> <img src="https://img.shields.io/badge/-SCSS-pink?style=flat&logo=scss"/> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
 
 ## <h2 align="center">HEADER SECTION</h2>
-
-![Natours-Page](readme-img/natours-1.png)
+<img src="readme-img/natours1.png"/>
 ## <h2 align="center">ABOUT SECTION</h2>
-![Natours-Page](readme-img/natours-2.png)
+<img src="readme-img/natours2.png"/>
 ## <h2 align="center">FEATURES SECTION</h2>
-![Natours-Page](readme-img/natours-3.png)
+<img src="readme-img/natours3.png"/>
 ## <h2 align="center">TOURS SECTION</h2>
-![Natours-Page](readme-img/natours-4.png)
+<img src="readme-img/natours4.png"/>
 ## <h2 align="center">STORIES SECTION</h2>
-![Natours-Page](readme-img/natours-5.png)
+<img src="readme-img/natours5.png"/>
 ## <h2 align="center">BOOKING SECTION</h2>
-![Natours-Page](readme-img/natours-6.png)
+<img src="readme-img/natours6.png"/>
 ## <h2 align="center">FOOTER SECTION</h2>
-![Natours-Page](readme-img/natours-7.png)
+<img src="readme-img/natours7.png"/>
 ## <h2 align="center">NAVIGATION SECTION</h2>
-![Natours-Page](readme-img/natours-8.png)
+<img src="readme-img/natours8.png"/>
 ## <h2 align="center">MODAL SECTION</h2>
-![Natours-Page](readme-img/natours-9.png)
+<img src="readme-img/natours9.png"/>
