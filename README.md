@@ -5,7 +5,6 @@
 
 ## <h3>🔴Projenin deploy edilmiş versiyonu : <a href="************">Natours</a></h3>
  
-
 ## Kullandığım yapılar:
 * Daha düzenli ve okunabilir bir css kodu  için sass kullandım.
 * Kodu tekrarlamamak adına mixins kullandım.
@@ -13,7 +12,7 @@
 * Projemde güncelleme durumları için pratik olması adına değişkenler tanımladım.
 
 ## 🛠 Kullandığım teknolojiler:
-![icon](./tech-icons/html-icon.png) ![icon](./tech-icons/css-icon.png)  ![icon](./tech-icons/sass-icon.png) ![icon](./tech-icons/npm-icon.png)
+![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
 
 ## GÖRSELLER :
 <h2 align="center">HEADER SECTION</h2>
