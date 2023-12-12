@@ -13,8 +13,12 @@
 * Projemde güncelleme durumları için pratik olması adına değişkenler tanımladım.
 
 <h2> 🛠 Kullandığım teknolojiler:</h2>
-![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
-![icon](./icon/html-icon.png) ![icon](./icon/css-icon.png)  ![icon](./icon/sass-icon.png) ![icon](./icon/npm-icon.png)
+<div style ="display:flex;">
+<img src="./icon/html-icon.png"/
+ ><img src="./icon/css-icon.png"/>
+ <img src="./icon/sass-icon.png"/>
+ <img src="./icon/npm-icon.png"/>
+</div>
 
 <h2> GÖRSELLER :</h2>
 <h2 align="center">HEADER SECTION</h2>
