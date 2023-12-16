@@ -43,8 +43,8 @@
 <img src="readme-img/natours9.png"/>
 
 <h2>Geliştirici Bağımlılıklar:</h2>
-* npm concat
-* npm autoprefixer 
-* npm run all
-* npm postcss-cli
-* npm sass
+* npm concat<br>
+* npm autoprefixer<br>
+* npm run all<br>
+* npm postcss-cli<br>
+* npm sass<br>
