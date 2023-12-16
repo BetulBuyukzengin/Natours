@@ -448,7 +448,7 @@ body {
     transform: rotateY(0);
   }
   .card__details {
-    padding: 1rem 3rem;
+    padding-top: 4rem;
   }
   .card__cta {
     position: relative;
@@ -859,6 +859,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   .story__shape {
     transform: translateX(-3rem) skewX(0);
+    shape-outside: none;
   }
 }
 .story__img {
