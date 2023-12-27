@@ -1,8 +1,6 @@
 <h1 align="center"> ✈ NATOURS </h1>
-<!--Forkify-App i, The Complate Javascript Course - 'Jonas Schmedtmann' eşliğinde  oluşturdum.-->
 <h2>Hakkında:</h2>
-✨ Çeşitli yerlere turlar düzenleyen içerisinde animasyonlar, hover efectler barındıran ve farklı cihazlarla uyumlu (responsive) bir frontend projesidir.
-
+✨ Animasyonlar ve hover efektleri içeren, çeşitli destinasyonlara turlar düzenleyen ve farklı cihazlara uyumlu (responsive) olan Jonas Schmedtmann eşliğinde  oluşturduğum bu seyahat sitesini keşfedin.
 <h3>🔴Projenin deploy edilmiş versiyonu : <a href="https://natours-site-project.netlify.app/">Natours</a></h3>
  
 <h2> Kullandığım yapılar:</h2>
