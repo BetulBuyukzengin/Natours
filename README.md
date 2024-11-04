@@ -12,8 +12,7 @@
 
 <h2> 🛠 Kullandığım teknolojiler:</h2>
 <div style ="display:flex;">
-<img src="./icon/html-icon.png"/
- ><img src="./icon/css-icon.png"/>
+<img src="./icon/html-icon.png"/>
  <img src="./icon/sass-icon.png"/>
  <img src="./icon/npm-icon.png"/>
 </div>
